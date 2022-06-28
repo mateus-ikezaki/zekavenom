@@ -1,0 +1,71 @@
+2022/06/27-21:45:45.543 108b8 Reusing MANIFEST C:\Users\mateu\Desktop\Developer\Zeka_Venom\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/27-21:45:45.544 108b8 Recovering log #662
+2022/06/27-21:45:45.577 108b8 Reusing old log C:\Users\mateu\Desktop\Developer\Zeka_Venom\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000662.log 
+2022/06/27-21:46:00.722 f080 Level-0 table #691: started
+2022/06/27-21:46:00.739 f080 Level-0 table #691: 1121845 bytes OK
+2022/06/27-21:46:00.741 f080 Delete type=0 #662
+2022/06/27-21:46:01.773 6cf0 Compacting 1@0 + 1@1 files
+2022/06/27-21:46:01.788 6cf0 Generated table #692@0: 20327 keys, 304833 bytes
+2022/06/27-21:46:01.796 6cf0 Generated table #693@0: 10455 keys, 281100 bytes
+2022/06/27-21:46:01.799 6cf0 Generated table #694@0: 796 keys, 18200 bytes
+2022/06/27-21:46:01.799 6cf0 Compacted 1@0 + 1@1 files => 604133 bytes
+2022/06/27-21:46:01.802 6cf0 compacted to: files[ 0 3 30 0 0 0 0 ]
+2022/06/27-21:46:01.802 6cf0 Delete type=2 #666
+2022/06/27-21:46:01.802 6cf0 Delete type=2 #691
+2022/06/27-21:46:01.814 6cf0 Compacting 1@1 + 10@2 files
+2022/06/27-21:46:01.856 6cf0 Generated table #695@1: 37859 keys, 2239746 bytes
+2022/06/27-21:46:01.900 6cf0 Generated table #696@1: 25650 keys, 2278697 bytes
+2022/06/27-21:46:01.944 6cf0 Generated table #697@1: 25929 keys, 2275341 bytes
+2022/06/27-21:46:01.986 6cf0 Generated table #698@1: 26322 keys, 2268722 bytes
+2022/06/27-21:46:02.022 6cf0 Generated table #699@1: 43844 keys, 2219815 bytes
+2022/06/27-21:46:02.043 6cf0 Generated table #700@1: 8116 keys, 2129614 bytes
+2022/06/27-21:46:02.078 6cf0 Generated table #701@1: 62159 keys, 2199699 bytes
+2022/06/27-21:46:02.126 6cf0 Generated table #702@1: 100466 keys, 2251135 bytes
+2022/06/27-21:46:02.173 6cf0 Generated table #703@1: 101129 keys, 2251610 bytes
+2022/06/27-21:46:02.221 6cf0 Generated table #704@1: 101228 keys, 2250834 bytes
+2022/06/27-21:46:02.228 6cf0 Generated table #705@1: 10783 keys, 237801 bytes
+2022/06/27-21:46:02.228 6cf0 Compacted 1@1 + 10@2 files => 22603014 bytes
+2022/06/27-21:46:02.230 6cf0 compacted to: files[ 0 2 31 0 0 0 0 ]
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #667
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #668
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #669
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #670
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #671
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #672
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #673
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #674
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #675
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #676
+2022/06/27-21:46:02.231 6cf0 Delete type=2 #693
+2022/06/27-21:46:03.944 6cf0 Compacting 1@1 + 2@2 files
+2022/06/27-21:46:03.959 6cf0 Generated table #706@1: 27624 keys, 621643 bytes
+2022/06/27-21:46:03.959 6cf0 Compacted 1@1 + 2@2 files => 621643 bytes
+2022/06/27-21:46:03.961 6cf0 compacted to: files[ 0 1 30 0 0 0 0 ]
+2022/06/27-21:46:05.342 8ccc Compacting 1@1 + 10@2 files
+2022/06/27-21:46:05.381 8ccc Generated table #707@1: 40192 keys, 2242838 bytes
+2022/06/27-21:46:05.399 8ccc Generated table #708@1: 3120 keys, 2157374 bytes
+2022/06/27-21:46:05.417 8ccc Generated table #709@1: 2922 keys, 2153102 bytes
+2022/06/27-21:46:05.436 8ccc Generated table #710@1: 2982 keys, 2153149 bytes
+2022/06/27-21:46:05.455 8ccc Generated table #711@1: 2935 keys, 2152979 bytes
+2022/06/27-21:46:05.473 8ccc Generated table #712@1: 2937 keys, 2151871 bytes
+2022/06/27-21:46:05.492 8ccc Generated table #713@1: 2983 keys, 2154340 bytes
+2022/06/27-21:46:05.510 8ccc Generated table #714@1: 2961 keys, 2161036 bytes
+2022/06/27-21:46:05.527 8ccc Generated table #715@1: 2647 keys, 2160909 bytes
+2022/06/27-21:46:05.545 8ccc Generated table #716@1: 3162 keys, 2157706 bytes
+2022/06/27-21:46:05.549 8ccc Generated table #717@1: 66 keys, 84422 bytes
+2022/06/27-21:46:05.549 8ccc Compacted 1@1 + 10@2 files => 21729726 bytes
+2022/06/27-21:46:05.551 8ccc compacted to: files[ 0 0 31 0 0 0 0 ]
+2022/06/27-21:46:05.551 8ccc Delete type=2 #650
+2022/06/27-21:46:05.551 8ccc Delete type=2 #677
+2022/06/27-21:46:05.551 8ccc Delete type=2 #678
+2022/06/27-21:46:05.551 8ccc Delete type=2 #679
+2022/06/27-21:46:05.551 8ccc Delete type=2 #680
+2022/06/27-21:46:05.551 8ccc Delete type=2 #681
+2022/06/27-21:46:05.551 8ccc Delete type=2 #682
+2022/06/27-21:46:05.551 8ccc Delete type=2 #683
+2022/06/27-21:46:05.551 8ccc Delete type=2 #684
+2022/06/27-21:46:05.551 8ccc Delete type=2 #685
+2022/06/27-21:46:05.551 8ccc Delete type=2 #686
+2022/06/27-21:46:05.551 8ccc Delete type=2 #687
+2022/06/27-21:46:05.551 8ccc Delete type=2 #692
+2022/06/27-21:46:05.551 8ccc Delete type=2 #694
