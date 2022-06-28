@@ -12,7 +12,7 @@ const targetGroupId = '120363043035155290@g.us';
 
     console.log("Puppeteer Launched!");
 })();
-
+//teste
 venom
   .create({
     session: 'session-name',
