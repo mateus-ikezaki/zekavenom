@@ -1,11 +1,22 @@
 const venom = require('venom-bot');
+const puppeteer = require('puppeteer')
 
 const targetGroupId = '120363043035155290@g.us';
 
+(async () => {
+    console.log("Launching Puppeteer...");
+    
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+
+    console.log("Puppeteer Launched!");
+})();
+
 venom
   .create({
-    session: 'session-name', //name of session
-    multidevice: true // for version not multidevice use false.(default: true)
+    session: 'session-name',
+    multidevice: true
   })
   .then((client) => {
         start(client);
