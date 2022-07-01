@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "heroku": "^7.60.2",
-    "puppeteer": "^15.1.1",
     "venom-bot": "^4.2.0"
   },
   "engines": {

@@ -1,8 +1,9 @@
 const venom = require('venom-bot');
-const puppeteer = require('puppeteer')
+const venomOptions = require('./venom-options.js')
+//const puppeteer = require('puppeteer')
 
 const targetGroupId = '120363043035155290@g.us';
-
+/*
 (async () => {
     console.log("Launching Puppeteer...");
     
@@ -12,7 +13,7 @@ const targetGroupId = '120363043035155290@g.us';
 
     console.log("Puppeteer Launched!");
 })();
-//teste
+
 venom
   .create({
     session: 'session-name',
@@ -47,4 +48,71 @@ function start(client) {
         client.reply(message.chatId, 'pong', message.id);
     }
   })
+}*/
+
+
+//const venom = require('venom-bot')
+
+const TWENTY_MINUTES = 1200000
+let client = null
+
+dateLog('Started index.js')
+initBot()
+
+function initBot() {
+	dateLog('Initializing bot')
+	venom
+		//	create bot with options
+		.create(venomOptions)
+		// 	start bot
+		.then((client) => {
+      startBot(client)
+      client.sendText(targetGroupId, 'We are Venom');
+    })
+		// 	catch errors
+		.catch((err) => {
+			dateLog(err)
+		})
+}
+
+function startBot(_client) {
+	dateLog('Starting bot')
+	client = _client
+  client.send
+	//	restart bot every 20 minutos
+	//	stops working otherwise
+	setTimeout(() => {
+		//	close bot
+		client.close()
+		dateLog('Closing bot')
+
+		//	init bot again
+		initBot()
+	}, TWENTY_MINUTES)
+
+	//
+	// add your code here
+	//
+
+	// example: reply every message with "Hi!""
+	client.onAnyMessage(capture)
+}
+
+function capture(message) {
+	const sender = message.from
+	dateLog(`Message received from: ${sender}`);
+	dateLog(`Message: "${message.body}"`);
+}
+
+//
+//	Aux
+//
+
+// Catch ctrl+C
+process.on('SIGINT', function () {
+	client.close()
+})
+
+function dateLog(text) {
+	console.log(new Date(), ' - ', text)
 }
